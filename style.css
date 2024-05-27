@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Raddit_Sans";
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+}
+
+body{
+    font-family: "Raddit_Sans";
+    /* temporarily */
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.header_logo{
+    background-image: url(./img/logo.png.webp);
+    background-size: contain;
+    height: 100%;
+    width: 189px;
+}
+
+.navigation{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.navigation .nav_btn{
+    margin-right: 50px;
+}
+
+.navigation .nav_btn:last-child{
+    margin-right: 0;
+}
+
+.book_a_table{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book_a_table .book_a_table__btn{
+    font-size: 16px;
+    background-color: transparent;
+    border-bottom: 4px solid #fbe9c7;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.home_slider{
+    width: 100%;
+    height: 100vh;
+    background: rgb(0,65,83);
+    background: linear-gradient(90deg, rgba(0,65,83,1) 0%, rgba(197,203,204,1) 100%); 
+}
+
+.home_slider .slide_text{
+    text-transform: capitalize;
+}
